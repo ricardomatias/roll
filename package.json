@@ -1,0 +1,57 @@
+{
+	"name": "@ricardomatias/roll",
+	"version": "0.0.1",
+	"main": "dist/roll.cjs.js",
+	"module": "dist/roll.esm.js",
+	"browser": "dist/roll.umd.js",
+	"description": "Let's you pick an element randomly based on a chosen probability distribution",
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w",
+		"pretest": "npm run build",
+		"test": "npm run lint && jest",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage",
+		"lint": "eslint lib test"
+	},
+	"files": [
+		"dist"
+	],
+	"author": {
+		"name": "Ricardo Matias",
+		"url": "https://github.com/ricardomatias"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ricardomatias/roll.git"
+	},
+	"homepage": "https://github.com/ricardomatias/roll",
+	"bugs": {
+		"url": "https://github.com/ricardomatias/roll/issues"
+	},
+	"license": "MIT",
+	"keywords": [
+		"probability",
+		"probabilities",
+		"distribution",
+		"random",
+		"roll",
+		"pick"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"babel-loader": "^8.0.6",
+		"eslint": "^5.16.0",
+		"eslint-config-google": "^0.10.0",
+		"eslint-plugin-import": "^2.18.2",
+		"jest": "^24.8.0",
+		"rollup": "^1.20.0",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-commonjs": "^10.0.0",
+		"rollup-plugin-node-resolve": "^5.1.0",
+		"rollup-plugin-terser": "^5.1.1",
+		"seed-random": "^2.2.0"
+	}
+}
