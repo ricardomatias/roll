@@ -43,9 +43,6 @@ Pick an element randomly based on a chosen probability distribution
 ### distribute
 
 <dl>
-<dt><a href="#sumDistribution">sumDistribution(probabilities, [precision])</a> ⇒ <code>Array.&lt;String&gt;</code></dt>
-<dd><p>Sum probabilities together</p>
-</dd>
 <dt><a href="#decreasing">decreasing(k, precision)</a> ⇒ <code>Array.&lt;String&gt;</code></dt>
 <dd><p>Creates a decreasing probability distribution</p>
 </dd>
