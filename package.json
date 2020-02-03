@@ -1,6 +1,6 @@
 {
 	"name": "@ricardomatias/roll",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"main": "dist/roll.cjs.js",
 	"module": "dist/roll.esm.js",
 	"browser": "dist/roll.umd.js",
