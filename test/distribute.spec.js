@@ -1,6 +1,21 @@
-import { distribute } from '../';
+import distribute from '../lib/distribute';
 
 describe('A Distribute test suite', () => {
+	it('should sum distribution', () => {
+		const result = distribute.sumDistribution([
+			'0.155', '0.155', '0.155', '0.155', '0.155', '0.155', '0.07',
+		], 3);
+
+		expect(result).toEqual([
+			'0.155',
+			'0.310',
+			'0.465',
+			'0.620',
+			'0.775',
+			'0.930',
+			'1.000',
+		]);
+	});
 	it('should distribute equally', () => {
 		expect(distribute.equal(5)).toEqual([
 			'0.200',

@@ -1,5 +1,7 @@
 import seedRandom from 'seed-random';
-import { roll, distribute } from '../';
+import distribute from '../lib/distribute';
+import roll from '../lib/roll';
+
 
 const AM7 = [ 'A', 'C', 'E', 'G' ];
 let rng;
