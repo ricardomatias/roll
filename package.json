@@ -40,18 +40,18 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@babel/core": "^7.5.5",
-		"@babel/preset-env": "^7.5.5",
+		"@babel/core": "^7.8.4",
+		"@babel/preset-env": "^7.8.4",
 		"babel-loader": "^8.0.6",
-		"eslint": "^5.16.0",
-		"eslint-config-google": "^0.10.0",
+		"eslint": "^6.8.0",
+		"eslint-config-google": "^0.14.0",
 		"eslint-plugin-import": "^2.18.2",
-		"jest": "^24.8.0",
-		"rollup": "^1.20.0",
+		"jest": "^25.1.0",
+		"rollup": "^1.31.0",
 		"rollup-plugin-babel": "^4.3.3",
-		"rollup-plugin-commonjs": "^10.0.0",
-		"rollup-plugin-node-resolve": "^5.1.0",
-		"rollup-plugin-terser": "^5.1.1",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-terser": "^5.2.0",
 		"seed-random": "^2.2.0"
 	}
 }
