@@ -5,6 +5,7 @@
 	"module": "dist/roll.esm.js",
 	"browser": "dist/roll.umd.js",
 	"description": "Let's you pick an element randomly based on a chosen probability distribution",
+	"types": "index.d.ts",
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
@@ -15,7 +16,8 @@
 		"lint": "eslint lib test"
 	},
 	"files": [
-		"dist"
+		"dist",
+		"index.d.ts"
 	],
 	"author": {
 		"name": "Ricardo Matias",
